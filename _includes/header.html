@@ -1,20 +1,19 @@
-
     <header>
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
+          {% if page.permalink %}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                <span class="font-weight-bold" style="font-size: 28px"> {{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
               {%- endif -%}
               {%- if site.last_name -%}
-                {{- site.last_name -}}
+                <span style="font-size: 24px"> {{- site.last_name -}}&nbsp;</span>
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
@@ -51,16 +50,7 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
+              
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -94,6 +84,13 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+               <!-- Add CV --> 
+               <li class="nav-item">
+                <a class="nav-link" href="{{'assets/pdf/nischal_cv.pdf' | relative_url}}"> CV
+                </a>
+              </li>
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
