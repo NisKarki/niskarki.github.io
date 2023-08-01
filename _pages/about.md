@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 I am a Water Resources Engineer from <a href="https://www.youtube.com/watch?v=wd3Mt8JBBBg">Kathmandu, Nepal</a>. I hold a master's degree in Water Resources Engineering from <a href="http://pcampus.edu.np">Tribhuvan University</a> and a bachelor's degree in Environmental Engineering from <a href="https://ku.edu.np">Kathmandu University</a>, Nepal. I am currently working as a researcher at Centre for Disaster Studies (CDS), Institute of Engineering where I'm involved in few <a href="/projects/">projects</a> related to hydrologic and hydraulic modeling and fluvial hazard analysis using satellite remote sensing. 
 
 <br>
-I've often found myself reading about/ working on/ getting crazy project ideas on: <br> - Surface Hydrology <br> - Comparative / Large-Sample Hydrology <br> - Hydro-climatic extremes <br> - Fate of Water Resources under Climate Change <br> - Remote sensing <br> - Machine Learning in Earth Sciences (Super-interested, but haven't got the right motivation to dig in, YET!)
+I've often found myself reading about/ working on/ getting crazy project ideas on: <br> - Surface Hydrology <br> - Comparative / Large-Sample Hydrology <br> - Hydro-climatic extremes <br> - Fate of Water Resources under Climate Change <br> - Remote sensing <br> - Deep learning hydrology (Super-interested, have been following the domain intensively but haven't got the right opportunity to get my hands dirty, YET!)
 
 
 <br>

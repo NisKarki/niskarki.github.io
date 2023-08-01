@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Hydrologic Prediction in Ungauged Basins
-description: How do we predict model parameters when there is no observed data for calibration? I tried to tackle this question during my master's thesis.
-img: assets/img/edc.pdf
+description: How do we predict model parameters when there is lack of observed data for model calibration? I tried to tackle this question during my master's thesis.
+img: assets/img/prev.png
 importance: 1
 category: work
 related_publications: karki2023comparative
