@@ -49,7 +49,7 @@ We found strong correlation (r = 0.70) between accretion area and peak annual fl
 
 <figure class="figure">
 <div class="row justify-content-sm-center">
-    {% include figure.html path="assets/img/flow_corr" title="monsoon-flood" class="img-fluid rounded z-depth-1" width=600%}
+    {% include figure.html path="assets/img/flow_corr.png" title="monsoon-flood" class="img-fluid rounded z-depth-1" width=600%}
 </div>
 <figcaption class="figure-caption">Figure&nbsp;5: The role of monsoon flood in channel extent change. Scatter plots showing correlation between peak annual flow and a) accretion area and b) erosion area. The blue line represents regression line while the grey shaded area shows the confidence interval. c) Flood map for 2019 July event derived from Sentinel-1 radar imagery.</figcaption><p></p>
 </figure>
